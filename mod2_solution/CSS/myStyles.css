@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccffff;
+}
+
+h1 {
+    font-family:arial, sans-serif;
+    color: #000099;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+}
+
+.container {
+	border: 5px*;
+	margin-left: auto;
+	margin-right: auto;
+    width: 100%;
+    margin: 10px;
+}
+
+section {
+    position: relative;
+	border:	1px solid #000000;
+	background-color: #000099;
+	width: 50%;
+	height: 300px;
+	font-family: arial, sans-serif;
+	color: #ffffff;
+	overflow: auto;
+}
+
+#chicken {
+	border: 1px solid #000000;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: arial ,sans-serif;
+	font-weight: bold;
+	font-size: 140%;
+    padding: 5px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #0066ff;
+}
+
+
+#beef {
+	border: 1px solid #000000;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: arial ,sans-serif;
+	font-weight: bold;
+	font-size: 140%;
+    padding: 5px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #0066ff;
+}
+
+#fish {
+	border: 1px solid #ffffff
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: arial ,sans-serif;
+	font-weight: bold;
+	font-size: 120%;
+    padding: 5px;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #0066ff;
+}
+
+
+p {
+	padding: 5px;
+	margin: 0;
+}
+
+@media (min-width: 992px)
+{
+.col-lg-4 {
+        position: relative;
+        float: left;
+        width: 33.33%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+ .col-md-6 {
+        position: relative;
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .col-sm-12 {        
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+}
